@@ -1,0 +1,19 @@
+Laurel Nave-Powers
+
+Title: 
+Ancient climate change, antifreeze, and the evolutionary diversification of Antarctic fishes
+
+URL of paper: 
+http://www.pnas.org/content/pnas/109/9/3434.full.pdf 
+
+Software used:
+- MUSCLE- to align coding regions as well as non-coding genes. 
+- RAxML- to use a GTR+G substitution model in a partitioned maximum likelihood analysis. 
+- BEAST- estimate divergence times using a UCLN model. 
+- LogCombined- combine resulting trees and log files from 5 BEAST runs. 
+- Tracer- assess convergence of model parameter values and estimated node heights to their optimal posterior distributions 
+- TreeAnnotator- summarize posterior probability density of combined trees and log files as a maximum clade credibility tree. 
+- R packages- APE, GEIGER, and LASER – for diversification rate analyses. 
+
+Data:
+Isolated DNA from tissue biopsies from 83 notothenioid species. 
